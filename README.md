@@ -95,7 +95,7 @@ make install
 
 ```bash
 # (stage3) #
-gurb-install /dev/sda  # 换成启动磁盘的路径
+grub-install /dev/sda  # 换成启动磁盘的路径
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
